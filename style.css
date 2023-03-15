@@ -1,0 +1,25 @@
+body {
+    background-image: url(https://images8.alphacoders.com/679/679478.jpg);
+   background-position: center;
+   background-repeat: repeat;
+   
+  }
+
+  .carousel-inner {
+                  max-height: 40rem;
+                  border: solid 5px ;
+                  border-bottom: solid 10px;
+                         
+  }
+
+  .nav-link{
+    color: rgb(204, 176, 19);
+    font-size: xx-large;
+    border: solid 5px rgb(204, 176, 19);
+    border-radius: 25px;
+  }
+ 
+  .card{
+       border: solid 5px rgb(216, 148, 23);
+       
+  }
