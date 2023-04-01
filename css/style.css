@@ -1,0 +1,28 @@
+body {
+  background-image: url(https://images8.alphacoders.com/679/679478.jpg);
+  background-position: top;
+  background-repeat: repeat; }
+  body .carousel-inner {
+    max-height: 45rem;
+    border: solid 5px;
+    border-bottom: solid 10px; }
+  body .ContenedorTextoIntro {
+    padding-top: 10px; }
+
+.container-fluid {
+  padding-bottom: 10px;
+  padding-top: 10px; }
+
+.nav-link {
+  color: #ccb013;
+  font-size: xx-large;
+  border: solid 3px #ccb013;
+  border-radius: 25px; }
+
+.card {
+  border: solid 5px #d89417; }
+
+.contenedor {
+  background-color: #74775e;
+  background: linear-gradient(90deg, #74775e 0%, #f0d258 35%, #ffaf00 100%);
+  align-items: center; }

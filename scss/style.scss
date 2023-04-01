@@ -1,0 +1,66 @@
+//
+//body {
+// background-image: url(https://images8.alphacoders.com/679/679478.jpg);
+//  background-position: center;
+//  background-repeat: repeat;
+//}
+
+//.carousel-inner {
+// max-height: 45rem;
+// border: solid 5px;
+//border-bottom: solid 10px;
+//}
+
+//.nav-link {
+//color: rgb(204, 176, 19);
+//  font-size: xx-large;
+// border: solid 2px rgb(204, 176, 19);
+// border-radius: 25px;
+// }
+
+//.card {
+// border: solid 5px rgb(216, 148, 23);
+//}
+
+//.d-flex{
+//  border: solid 5px;
+//}
+
+body {
+  background-image: url(https://images8.alphacoders.com/679/679478.jpg);
+  background-position: top;
+  background-repeat: repeat;
+
+  .carousel-inner {
+    max-height: 45rem;
+    border: solid 5px;
+    border-bottom: solid 10px;
+  }
+
+  .ContenedorTextoIntro {
+    padding-top: 10px;
+  }
+}
+
+.container-fluid {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.nav-link {
+  color: rgb(204, 176, 19);
+  font-size: xx-large;
+  border: solid 3px rgb(204, 176, 19);
+  border-radius: 25px;
+}
+
+.card {
+  border: solid 5px rgb(216, 148, 23);
+}
+
+.contenedor{
+    background-color: rgb(116,119,94);
+    background: linear-gradient(90deg, rgba(116,119,94,1) 0%, rgba(240,210,88,1) 35%, rgba(255,175,0,1) 100%);
+    
+    align-items: center;
+    
+}
