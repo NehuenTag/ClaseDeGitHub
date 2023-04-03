@@ -1,7 +1,8 @@
 body {
   background-image: url(https://images8.alphacoders.com/679/679478.jpg);
   background-position: top;
-  background-repeat: repeat; }
+  background-repeat: repeat;
+  height: 190%; }
   body .carousel-inner {
     max-height: 45rem;
     border: solid 5px;
@@ -20,9 +21,34 @@ body {
   border-radius: 25px; }
 
 .card {
-  border: solid 5px #d89417; }
+  border: solid 6px #d89417;
+  border-radius: 9px; }
+
+.flex-container {
+  display: flex;
+  background: #2b2d2e;
+  background: linear-gradient(90deg, #2b2d2e 15%, #f9d400 50%, #2b2d2e 85%);
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  border-radius: 3px; }
+  .flex-container .miboton {
+    background: #222121;
+    color: #ccb011;
+    border: 1px solid #cb9304;
+    padding: 10px 50px;
+    border-radius: 13px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block; }
+    .flex-container .miboton .miboton {
+      transition-duration: 0.4s; }
+
+.miboton:hover {
+  background-color: #cb9304;
+  color: black; }
 
 .contenedor {
-  background-color: #74775e;
-  background: linear-gradient(90deg, #74775e 0%, #f0d258 35%, #ffaf00 100%);
-  align-items: center; }
+  background: #ffdcc8;
+  background: linear-gradient(90deg, #ffdcc8 10%, #d7ad0e 50%, #ffdcc8 90%); }

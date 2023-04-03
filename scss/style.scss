@@ -30,6 +30,8 @@ body {
   background-image: url(https://images8.alphacoders.com/679/679478.jpg);
   background-position: top;
   background-repeat: repeat;
+  height: 190%;
+  
 
   .carousel-inner {
     max-height: 45rem;
@@ -54,13 +56,47 @@ body {
 }
 
 .card {
-  border: solid 5px rgb(216, 148, 23);
+  border: solid 6px rgb(216, 148, 23);
+  border-radius: 9px;
 }
 
-.contenedor{
-    background-color: rgb(116,119,94);
-    background: linear-gradient(90deg, rgba(116,119,94,1) 0%, rgba(240,210,88,1) 35%, rgba(255,175,0,1) 100%);
-    
-    align-items: center;
-    
+
+.flex-container {
+  display: flex;
+  background: rgb(43,45,46);
+  background: linear-gradient(90deg, rgba(43,45,46,1) 15%, rgba(249,212,0,1) 50%, rgba(43,45,46,1) 85%);
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  border-radius: 3px;
+
+.miboton{
+  background: #222121;
+  color: #ccb011; 
+  border: 1px solid rgb(203,147,4); 
+  padding: 10px 50px;
+  border-radius: 13px; 
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+
+.miboton {
+  transition-duration: 0.4s;
 }
+}
+}
+
+.miboton:hover {
+  background-color: rgb(203,147,4); 
+  color: black;
+}
+
+.contenedor {
+  background: rgb(255,220,200);
+  background: linear-gradient(90deg, rgba(255,220,200,1) 10%, rgba(215,173,14,1) 50%, rgba(255,220,200,1) 90%);
+}
+
+
+
+
