@@ -17,11 +17,14 @@ body {
 .nav-link {
   color: #ccb013;
   font-size: xx-large;
-  border: solid 3px #ccb013;
-  border-radius: 25px; }
+  border: solid 5px #ccb013;
+  border-radius: 29px; }
+
+.nav-item {
+  padding-inline-start: 30px; }
 
 .card {
-  border: solid 6px #d89417;
+  border: solid 3px #d89417;
   border-radius: 9px; }
 
 .flex-container {
@@ -52,3 +55,19 @@ body {
 .contenedor {
   background: #ffdcc8;
   background: linear-gradient(90deg, #ffdcc8 10%, #d7ad0e 50%, #ffdcc8 90%); }
+
+.col {
+  transform: scale(1);
+  transform-origin: center center;
+  transition: all 0.1s ease-out;
+  opacity: 0.95; }
+
+.col:hover {
+  transform: scale(1.03);
+  transition: all 0.5s ease-in 1s;
+  transition-property: number;
+  opacity: 1;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
+  transition-delay: 1s;
+  border-radius: 10px; }
