@@ -4,7 +4,12 @@ body {
   background-position: top;
   background-repeat: repeat;
   height: 190%;
-  
+
+  .contenedor-carousel{
+    padding-top: 50px;
+    padding-bottom: 30px;
+     
+    }
 
   .carousel-inner {
     max-height: 45rem;
@@ -14,6 +19,12 @@ body {
 
   .ContenedorTextoIntro {
     padding-top: 10px;
+    
+    .contenedor-carousel{
+      padding-top: 50px;
+      padding-bottom: 20px;
+       
+     }
   }
 }
 
@@ -92,4 +103,11 @@ body {
   border-radius: 10px;
 }
 
+.cont-video{
+padding-bottom: 6vw;
 
+.video{
+  border: solid 3px rgb(203,147,4);
+  border-radius: 10px;
+}
+}

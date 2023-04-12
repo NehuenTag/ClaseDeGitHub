@@ -3,12 +3,18 @@ body {
   background-position: top;
   background-repeat: repeat;
   height: 190%; }
+  body .contenedor-carousel {
+    padding-top: 50px;
+    padding-bottom: 30px; }
   body .carousel-inner {
     max-height: 45rem;
     border: solid 5px;
     border-bottom: solid 10px; }
   body .ContenedorTextoIntro {
     padding-top: 10px; }
+    body .ContenedorTextoIntro .contenedor-carousel {
+      padding-top: 50px;
+      padding-bottom: 20px; }
 
 .container-fluid {
   padding-bottom: 10px;
@@ -71,3 +77,9 @@ body {
   transition-timing-function: ease-in;
   transition-delay: 1s;
   border-radius: 10px; }
+
+.cont-video {
+  padding-bottom: 6vw; }
+  .cont-video .video {
+    border: solid 3px #cb9304;
+    border-radius: 10px; }
