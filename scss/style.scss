@@ -104,10 +104,31 @@ body {
 }
 
 .cont-video{
-padding-bottom: 6vw;
+padding-bottom: 5vw;
+
 
 .video{
   border: solid 3px rgb(203,147,4);
   border-radius: 10px;
+ 
 }
 }
+
+.contBo{
+  display: grid;
+  place-content: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  .tituloC {
+   font-size: 3.5vw;
+    text-align: center;
+    padding-top: 7px;
+    background-color: #ccb011;
+    padding-bottom: 7px;
+    border-radius: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   width: 30vw;
+   
+  }
+}
+
