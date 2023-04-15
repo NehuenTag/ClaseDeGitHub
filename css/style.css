@@ -1,8 +1,7 @@
 body {
   background-image: url(https://images8.alphacoders.com/679/679478.jpg);
   background-position: top;
-  background-repeat: repeat;
-  height: 190%; }
+  background-repeat: repeat; }
   body .contenedor-carousel {
     padding-top: 50px;
     padding-bottom: 30px; }
@@ -97,4 +96,6 @@ body {
     padding-bottom: 7px;
     border-radius: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 30vw; }
+    width: 30vw;
+    color: #353434;
+    text-decoration: underline; }
